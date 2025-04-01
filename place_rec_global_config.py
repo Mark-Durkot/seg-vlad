@@ -2,7 +2,7 @@
 # See README for more details on how to set the paths/expt configs in this script.
 
 # Step 0: set the parent path of where all datasets lie
-workdir_data = 'drive/MyDrive/datasets'
+workdir_data = '/content/drive/MyDrive/datasets'
 
 # Step 1: Set Dataset specific configurations
 datasets = {
