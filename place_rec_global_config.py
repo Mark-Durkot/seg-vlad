@@ -136,6 +136,17 @@ datasets = {
         "cfg": {'rmin': 0, 'desired_width': 256, 'desired_height': 256}, 
         "map_vlad_cluster": "AmsterTime",
         "domain_vlad_cluster": "urban",
+    },
+    "drone_dataset": {
+        "masks_h5_filename_r": "drone_dataset_r_masks.h5",
+        "masks_h5_filename_q": "drone_dataset_q_masks.h5",
+        "dino_h5_filename_r": "drone_dataset_r_dino_640.h5",
+        "dino_h5_filename_q": "drone_dataset_q_dino_640.h5",
+        "data_subpath1_r": "ref",
+        "data_subpath2_q": "query",
+        "cfg": {'rmin': 0, 'desired_width': 5456, 'desired_height': 3632}, 
+        "map_vlad_cluster": "drone_dataset",
+        "domain_vlad_cluster": "aerial",
     }
 }
 
