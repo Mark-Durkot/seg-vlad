@@ -140,8 +140,10 @@ datasets = {
     "drone_dataset": {
         "masks_h5_filename_r": "drone_dataset_r_masks.h5",
         "masks_h5_filename_q": "drone_dataset_q_masks.h5",
-        "dino_h5_filename_r": "drone_dataset_r_dino_640.h5",
-        "dino_h5_filename_q": "drone_dataset_q_dino_640.h5",
+        "dino_h5_filename_r": "drone_dataset_r_dino_682.h5",
+        "dino_h5_filename_q": "drone_dataset_q_dino_682.h5",
+        "dinoNV_h5_filename_r":      "drone_dataset_r_dinoNV_682.h5",
+        "dinoNV_h5_filename_q":      "drone_dataset_q_dinoNV_682.h5",
         "data_subpath1_r": "ref",
         "data_subpath2_q": "query",
         "cfg": {'rmin': 0, 'desired_width': 682, 'desired_height': 454}, 
