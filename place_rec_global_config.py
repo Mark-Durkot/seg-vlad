@@ -144,7 +144,7 @@ datasets = {
         "dino_h5_filename_q": "drone_dataset_q_dino_640.h5",
         "data_subpath1_r": "ref",
         "data_subpath2_q": "query",
-        "cfg": {'rmin': 0, 'desired_width': 5456, 'desired_height': 3632}, 
+        "cfg": {'rmin': 0, 'desired_width': 682, 'desired_height': 454}, 
         "map_vlad_cluster": "drone_dataset",
         "domain_vlad_cluster": "aerial",
     }
