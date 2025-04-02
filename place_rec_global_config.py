@@ -138,8 +138,8 @@ datasets = {
         "domain_vlad_cluster": "urban",
     },
     "drone_dataset": {
-        "masks_h5_filename_r": "drone_dataset_r_masks_480.h5",
-        "masks_h5_filename_q": "drone_dataset_q_masks_480.h5",
+        "masks_h5_filename_r": "drone_dataset_r_masks_320.h5",
+        "masks_h5_filename_q": "drone_dataset_q_masks_320.h5",
         "dino_h5_filename_r": "drone_dataset_r_dino_640.h5",
         "dino_h5_filename_q": "drone_dataset_q_dino_640.h5",
         "dinoNV_h5_filename_r":      "drone_dataset_r_dinoNV_640.h5",
