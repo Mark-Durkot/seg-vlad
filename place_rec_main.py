@@ -46,7 +46,8 @@ def recall_segloc(workdir, dataset_name, experiment_config,experiment_name, segF
     # RECALL CALCULATION
     # if pca then d = 512 else d = 49152
     if experiment_config["pca"]:
-        d = 1024 #512 #PCA Dimension
+        # d = 1024 #512 #PCA Dimension
+        d = 256
         print("POTENTIAL CAUSE for error: Using d in pca before index faiss as", d, "\n 1024 or 512, check properly")
     else:
         d = 49152 #VLAD Dimension
