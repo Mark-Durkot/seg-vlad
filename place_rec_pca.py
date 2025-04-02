@@ -336,7 +336,7 @@ if __name__=="__main__":
 		# max_segments = 150000  # Max segments to sample in total
 		# global_sampling_ratio_r = 1 
 
-		pca_lower_dim = 1024 #512
+		pca_lower_dim = 256 #512
 		pca_whiten = True
 		svd_solver = "arpack"
 		pca = PCA(n_components=pca_lower_dim, whiten=pca_whiten, svd_solver=svd_solver)
